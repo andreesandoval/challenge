@@ -34,7 +34,7 @@ endpoint: http://localhost:8000/users/{userId}/recently-viewed
 
 test cases:
 user with products: http://localhost:8000/users/1/recently-viewed
-user without products: http://localhost:8000/users/30/recently-viewed
+user without products (fallback): http://localhost:8000/users/30/recently-viewed
 ```
 
 2.- Save a recently viewed product for a user (create and update): 
